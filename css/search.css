@@ -1,0 +1,30 @@
+.box{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.item-container{
+  background: #fff;
+  border: 1px solid #b75400;
+  border-radius: 3px;
+}
+
+.item-container p {
+  color:black ;
+  padding: 10px;
+  display: flex;
+}
+
+.selectedLanguage{
+  color: #b75400 !important;
+}
+
+.name_list{
+  display: flex;
+  align-items: baseline;
+}
+.name_list p{
+  margin: 0;
+}
